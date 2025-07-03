@@ -1,0 +1,237 @@
+@media  (min-width: 880px) {
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* ---------- HEADER - MENU ---------- */
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 120px;
+        height: 100px;
+    }
+
+    menu {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+
+    menu > a {
+        margin: 0px 40px;
+        color: white;
+        font-size: 18px;
+    }
+
+    img#logo {
+        width: 100px;
+        /* margin: 10px 0px; */
+    }
+
+    header .material-symbols-outlined {
+        display: none;
+    }
+
+    /* ---------- BANNER ---------- */
+
+    section#banner {
+        width: auto;
+        height: 810px;
+        margin: auto;
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    div#txt {
+        /* background-color: aqua; */
+        padding-top: 100px;
+        width: auto;
+        margin: 0 0;
+    }
+
+    section#banner  p {
+        /* background-color: aqua; */
+        width: 1000px;
+        font-size: 70px;
+        text-align: start;
+        /* justify-content: flex-start; */
+        /* align-items: center; */
+        padding: 0px 150px;
+    }
+
+    section#banner  p:nth-child(1) {
+        /* height: 100px; */
+        font-size: 70px;
+        font-weight: bolder;
+        color: white;
+        /* justify-content: flex-start; */
+        /* align-items: center; */
+        /* padding: 0px 150px; */
+        /* padding-top: 100px; */
+    }
+
+    section#banner  p:nth-child(2) {
+        /* height: 10px; */
+        font-size: 110px;
+        line-height: 90px;
+        color: #dbd51f;
+        /* justify-content: flex-start; */
+    }
+
+    section#banner  p#sub {
+        margin-top: 40px;
+        font-size: 25px;
+        text-align: justify;
+        padding: 0px 150px;
+    }
+
+    #banner > #txt > a {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        /* padding: 0px 100px; */
+        color: white;
+    }
+
+    #banner button {
+        background-color: transparent;
+        padding: 15px 25px;
+        border: 4px solid #dbd51f;
+        border-radius: 40px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: white;
+        transition: .3s;
+    }
+
+    #banner button:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    /* ---------- CARDAPIO ---------- */
+
+    #cardapio-combos {
+        min-height: 890px;
+        /* background-image: url('../img/bg-cardapio.jpg'); */
+        /* background-size: cover; */
+    }
+
+    #items-container {
+        display: flex;
+        flex-direction: row;
+        /* grid-template-columns: repeat(4, 1fr); */
+        /* grid-template-rows: repeat(1, 1fr); */
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-top: 20px;
+        /* align-items: center; */
+    }
+
+    #cardapio-combos div#item {
+        transition: .3s;
+    }
+
+    #cardapio-combos div#item:hover {
+        transform: scale(1.1);
+    }
+
+    #cardapio-combos > h1 {
+        text-align: center;
+        font-size: 50px;
+        /* display: none; */
+    }
+
+    p#p {
+        font-size: 25px;
+        width: auto;
+    }
+    
+    div#btn > a > button {
+        padding: 10px 30px;
+        font-size: 25px;
+        border-radius: 40px;
+        background-color: transparent;
+        color: white;
+        border: 4px solid #dbd51f;
+        transition: .3s;
+        margin: 0px 30px;
+    }
+
+    div#btn > a > button#ifood {
+        border: 4px solid red;
+    }
+
+    div#btn > a > button:hover {
+        /* border: 4px solid #dbd51f; */
+        color: white;
+        transform: scale(1.1);
+    }
+
+    div#btn > a > button#ifood:hover {
+        /* border: 4px solid red; */
+        color: white;
+    }
+
+    /* ---------- NOSSA HISTORIA ---------- */
+
+    #hist {
+        padding: 40px 100px;
+        /* border: 5px solid #dbd51f; */
+        min-height: 882px;
+        background-image: url('../img/hist-bg.jpg');
+        background-size: 2100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hist > h1 {
+        font-size: 50px;
+        justify-items: center;
+        color: white;
+    }
+
+    #hist > p {
+        font-size: 17px;
+        text-align: justify;
+        max-width: 900px;
+        color: white;
+    }
+
+    /* ---------- FOOTER ---------- */
+
+    footer #foot{
+        display: flex;
+        padding: 20px 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer iframe {
+        padding: 0px 50px;
+        width: 1450px;
+        height: 200px;
+        display: block;
+        /* margin: auto; */
+    }
+
+    #contato {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #contato a {
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    #contato a:hover {
+        text-decoration: underline;
+    }
+}
